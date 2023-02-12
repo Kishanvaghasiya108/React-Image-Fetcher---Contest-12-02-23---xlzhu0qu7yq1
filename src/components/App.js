@@ -36,4 +36,5 @@ loadData();
     {data == null ? (<Loader/>) : <PhotoFrame url = {data.url} title = {data.title}/>}
     </div>
   )
+}
 export default App;
